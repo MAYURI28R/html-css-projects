@@ -1,0 +1,416 @@
+@font-face {
+    font-family: 'freserickatheGreat-Regular';
+    src: url(../fonts/FrederickatheGreat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrate-Bold';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrate-ExtraBold';
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Gabelisa Font by Keithzo(7nTypes)';
+    src: url(..//fonts/Gabelisa\ Font\ by\ Keithzo\ \(7NTypes\).otf);
+}
+
+@font-face {
+    font-family: 'Hello America Demo';
+    src: url(../fonts/Hello\ America\ Demo.otf);
+}
+
+@font-face {
+    font-family: 'Montserrate-Regular';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    font-family: 'Montserrate-Regular', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.container {
+
+    padding-left: 35px;
+    padding-right: 55px;
+}
+
+.top-header {
+    background: linear-gradient(100deg, #ffe001 68%, #3f6602 33%);
+    padding: 40px;
+    height: 825px;
+}
+
+.restaurant {
+    margin-top: -32px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.restaurant>a {
+    font-family: 'Hello America Demo';
+    color: #3f6602;
+    font-size: x-large;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: flex-end;
+    transform: translate(0%, -20%);
+}
+
+.nav-item li {
+    list-style: none;
+    padding-top: -30px;
+    margin: 30px;
+}
+
+.nav-item .nav-link {
+    color: black;
+    font-size: 15px;
+
+}
+
+.home-banner {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    align-items: center;
+    transform: translate(0%, -5%);
+    position: relative;
+}
+
+.home-banner .text {
+    text-align: center;
+    transform: translate(10%, -5%);
+}
+
+.banner-caption h4 {
+    font-family: 'Hello America Demo';
+    font-size: 55px;
+}
+
+.banner-caption h3 {
+    font-family: 'freserickatheGreat-Regular';
+    font-size: 70px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+.banner-caption p {
+    font-family: 'Hello America Demo';
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.home-banner .text hr {
+    background: #000;
+    opacity: .4;
+    width: 471px;
+    height: 2px;
+
+    margin-bottom: 12px;
+
+}
+
+
+.home-banner .text .button {
+    margin-top: 59px;
+}
+
+.home-banner .text .button p {
+    font-family: 'freserickatheGreat-Regular';
+    font-size: 50px;
+    margin-top: 40px;
+
+}
+
+.home-banner .text .button .order-now {
+    color: #000;
+    border: #000 2px solid;
+    padding: 16px 18px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.home-banner .img-dish {
+    transform: translate(40%, 0%);
+}
+
+.leaf1 {
+    position: absolute;
+    left: 50px;
+
+    top: 150px;
+}
+
+/* .leaf1{
+    transform: translate(-1100px, -100%);
+} */
+.leaf2 {
+    transform: translate(150%, 250%);
+}
+
+.tomato {
+    transform: translate(-600%, 300%);
+}
+
+/* wrap-2 */
+
+.wrap-2 {
+    padding: 86px 0px;
+}
+
+.title-heading {
+    text-align: center;
+    padding: 0px 180px;
+}
+
+.wrap-2 .title-heading h4 {
+    font-family: 'Gabelisa Font by Keithzo(7nTypes)';
+    font-size: 50px;
+    color: #3f6602;
+}
+
+.title-heading p {
+    font-family: 'Montserrate-Regular';
+}
+
+.dishes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.food-section {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.food-section::before {
+    content: '';
+    background: linear-gradient(180deg, #e8e6a9 90%, #3f6602 10%);
+    height: 155px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: -2;
+    transform: translateY(60%);
+}
+
+
+.food-section .food img {
+    padding-bottom: 50px;
+}
+
+.food-caption h4 {
+    text-transform: uppercase;
+    margin-bottom: -40px;
+}
+
+.food-caption p {
+    padding: 40px 62.5px;
+}
+
+.order-btn {
+    background: linear-gradient(180deg, #ffe001 95%, #3f6602 5%);
+
+    display: inline;
+    padding: 20px 43px;
+    text-transform: uppercase;
+}
+
+.order-btn a {
+    color: #000;
+}
+
+.title-heading .discover {
+    font-family: 'Montserrate-Bold';
+    margin-bottom: -20px;
+    font-size: large;
+}
+
+main {
+    width: 50%;
+    height: 350px;
+    transform: translateY(50px);
+    margin: auto;
+    box-shadow: 0 0 3px grey;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    position: absolute;
+}
+
+.nav {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.nav button {
+    font-size: 25px;
+    transform: translateY(50px);
+}
+
+.wrap-3 {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    transform: translateX(5%);
+
+}
+
+.wrap-3 img {
+    padding-top: 50px;
+    position: relative;
+    padding: 30px;
+}
+
+.wrap-3 .pre1 {
+    position: absolute;
+    z-index: 100;
+    top: 80px;
+    left: 50px;
+    font-family: 'freserickatheGreat-Regular';
+    font-size: larger;
+    color: #3f6602;
+}
+
+.wrap-3 .pre2 {
+    position: absolute;
+    z-index: 100;
+    top: 55px;
+    left: 700px;
+    font-family: 'freserickatheGreat-Regular';
+    font-size: larger;
+    color: #3f6602;
+}
+
+.wrap-3 .pre3 {
+    position: absolute;
+    z-index: 100;
+    top: 285px;
+    left: 700px;
+    font-family: 'freserickatheGreat-Regular';
+    font-size: larger;
+    color: #3f6602;
+}
+
+.title-heading .reservation {
+    font-family: 'Montserrate-Bold';
+    margin-bottom: -10px;
+    font-size: large;
+}
+
+.form-section form {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    margin: auto;
+    transform: translateX(40px);
+}
+
+.form-section form .form-action {
+    width: 50%;
+}
+
+.form-section form .form-action input {
+    padding: 15px 30px;
+    margin: 16px 15px;
+    width: 90%;
+    font-size: 18px;
+    border-radius: 5px;
+    border: #000 1px solid;
+}
+
+.form-section form .form-action .btn {
+    background: #ffe001;
+    border: #ffe001 1px solid;
+    border-radius: 5px;
+
+}
+
+footer {
+    background-image: url(../img/bgimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-top: 100px;
+    padding: 75px 0px;
+    font-family: 'Montserrate-Regular';
+    height: 600px;
+    color: #fff;
+}
+
+footer .footer-text p {
+    width: 550px;
+    color: #fff;
+}
+
+footer address {
+    
+    margin-right: 300px;
+    color: #fff;
+    font-size: small;
+    margin-bottom: 25px;
+    transform: translate(20%, 45%);
+
+}
+
+footer address div img {
+    vertical-align: middle;
+    margin: 10px 10px;
+    
+}
+
+footer .social .social-media{
+    list-style: none;
+    display: flex;
+    transform: translate(65%, 329%);
+}
+
+footer .social .social-media li{
+    margin: 0px 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-text .footer-logo{
+    font-family: 'Hello America Demo';
+    color: #fff;
+    font-size: 22px;
+    align-items: baseline;
+}
+footer .footer-text .footer-logo a{
+    color: #fff;
+    padding: 2px;
+    
+}
+footer .footer-text .footer-caption{
+    font-family: 'Montserrate-Regular';
+    padding-top: 50px;
+}
+footer .container .last{
+    padding-top: 70px;
+}
